@@ -3,7 +3,7 @@
 extern int fib(int num);
 
 int fib_c(int num){
-	int i, first, second, temp;
+	int first, second, temp;
 	first=second=1;
 	if(num<=2) return second;
 	for(num; num>2; num--){
