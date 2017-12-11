@@ -15,8 +15,9 @@ int fib_c(int num){
 }
 
 int main(){
-	int i = 8;
+	fib(12);
+	/*int i = 8;
 	printf("%dth fibonacci number is: %d\n", i, fib_c(i));
-	printf("%dth fibonacci number is: %d\n", i, fib(i));
+	printf("%dth fibonacci number is: %d\n", 12, fib(12));*/
 	return 0;
 }

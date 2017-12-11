@@ -3,7 +3,7 @@
 .global fib
 
 fib:
-mov edx, [esp+0x8]
+mov edx, [esp+0x4]
 mov eax, edx
 ret
 
